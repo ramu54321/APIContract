@@ -25,7 +25,7 @@ Api contract for providing overview details for revenue management for various c
 ``` 
 **GET /revenue**
 ----
-  Returns all the users in the system.
+  Returns all the financial years data in the system.
 * **URL Params**  
   None
 * **Data Params**  
