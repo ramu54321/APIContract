@@ -2,7 +2,7 @@
 
 **Introduction**
 ---
-Pact is a code-first tool for testing HTTP and message integrations using contract tests. Contract tests assert that inter-application messages conform to a shared understanding that is documented in a contract. Without contract testing, the only way to ensure that applications will work correctly together is by using expensive and brittle integration tests.
+Api contract for providing overview details for revenue management for various clients. These apis will be used for Alexa integration as well.
 
 **#Revenue**
 * Financial Year object
