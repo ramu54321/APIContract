@@ -41,21 +41,7 @@ Api contract for providing overview details for revenue management for various c
   revenue: [
            {<financial_year_object>},
            {<financial_year_object>},
-           {
-            financial_year: "2019",
-            client: "All Clients",
-            total_revenue: {
-              amount: 1.57,
-              unit: "Billion",
-              currency: "USD"
-            },
-            utilization: {
-              value: 83,
-              measure: "Percentage"
-            },
-            created_at: "2019-10-25T10:30:04+0000",
-            updated_at: "2019-10-25T10:30:04+0000"
-          }
+           {<financial_year_object>}
          ]
 }
 ```
