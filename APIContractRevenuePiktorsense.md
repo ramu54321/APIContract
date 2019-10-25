@@ -8,7 +8,6 @@ Api contract for providing overview details for revenue management for various c
 * Financial Year object
 ```
 {
-  id: String
   financial_year: String
   client: String 
   total_revenue: {
@@ -26,7 +25,7 @@ Api contract for providing overview details for revenue management for various c
 ``` 
 **GET /revenue**
 ----
-  Returns all users in the system.
+  Returns all the users in the system.
 * **URL Params**  
   None
 * **Data Params**  
@@ -53,9 +52,9 @@ Api contract for providing overview details for revenue management for various c
   * **Code:** 401  
   **Content:** `{ error : error : "You are unauthorized to make this request." }`
 
-**GET /revenue/:id**
+**GET /revenue/:year**
 ----
-  Returns the specified financial year details.
+  Returns the specified financial year data.
 * **URL Params**  
   *Required:* `id=[String]`
 * **Data Params**  
@@ -68,7 +67,6 @@ Api contract for providing overview details for revenue management for various c
   **Content:**  `{ <financial_year_object> }` 
 ```
 {
-  id: "5da01f11ca5f9105bdb7a491",
   financial_year: "2019",
   client: "All Clients",
   total_revenue: {
