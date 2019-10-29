@@ -56,7 +56,7 @@ Api contract for providing overview details for revenue management for various c
 ----
   Returns the specified financial year data.
 * **URL Params**  
-  *Required:* `id=[String]`
+  *Required:* `year=[String]`
 * **Data Params**  
   None
 * **Headers**  
